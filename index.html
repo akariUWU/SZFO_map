@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <!--Заголовок-->
+	 <title>Северо западный федеральный округ</title>
+	 <!--Подключаем Leaflet-->
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.0/dist/leaflet.css"/>
+	 <script src="https://unpkg.com/leaflet@1.9.0/dist/leaflet.js"></script>
+	 
+	  <!--Подключаем плагин leaflet-choropleth-->
+	 <script src="https://unpkg.com/leaflet-choropleth/dist/choropleth.js"></script>
+	 
+	  <!--Подключаем плагин leaflet-groupedlayercontrol-->
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.css" />
+	 <script src="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.js"></script>
+	 
+	 <!--Подключаем библиотеку Font Awesome версия 4.7.0-->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	 
+	 <!--Подключаем плагин Leaflet.fullscreen-->
+	 <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
+	 <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+	 
+	 <!--Подключение плагина Leaflet.EasyButton-->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+	 <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+	 
+	 <!-- Подключаем плагин leaflet-search -->
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet-search/dist/leaflet-search.min.css" />
+	 <script src="https://unpkg.com/leaflet-search/dist/leaflet-search.min.js"></script>
+	 <!-- Подключаем файл CSS со стилями -->
+	  <link rel="stylesheet" href="style.css">
+   </head>
+   
+   <body>
+     <!--Верхняя часть страницы сайта (Шапка)-->
+	  <div id = "header">
+		<!--Заголовок 1-го уровня-->
+		<h1>Карта Северо Западного Федерального округа</h1>
+	  </div>
+	  
+	  <!--Блок содержания сайта-->
+	  <div id = "main-container">
+	  
+		<!--Блок с картой-->
+		<div id = "map-container">
+			<!--Сама карта-->
+			<div id = "map"></div>
+		</div>
+		
+		<!--Блок текста-->
+		<div id = "text-container">
+			<!--Заголовок 2-го уровня-->
+			<h2>Северо Западный Федеральный округ</h2>
+			<!--Абзац-->
+			<p>
+				Северо-Западный федеральный округ (СЗФО) — один из восьми федеральных округов Российской Федерации. Образован указом президента РФ от 13 мая 2000 года.
+				Административный центр — город Санкт-Петербург.
+			</p>
+			
+			<h2>Основные характеристики</h2>
+			<p>
+				Территория округа составляет 1 614 604 км², что соответствует 9,5% от территории Российской Федерации. По населению этот округ занимает четвёртое место среди остальных федеральных округов.
+
+Северо-Западный федеральный округ расположен в северо-западной части страны. Здесь находятся такие природные образования, как Ладожское и Онежское озера, а также полностью охватывает Калининградскую область. Виды местности варьируются от равнин до холмистых и гористых участков.
+
+Высшая точка округа — 1 248 метров (гора Бобровая).
+			</p>
+			<p>
+				Внешние границы: на севере омывается Баренцевым морем и Белым морем, на западе ограничен Балтийским морем.
+				Внутренние границы: на юге граничит с Центральным округом, на востоке — с Приволжским и Уральским округами, на северо-востоке — с Сибирским округом.
+			</p>
+		</div>
+	  
+	  </div>
+	  
+	  <!--Нижняя часть страницы (Подвал)-->
+	  <div id = "footer">
+		Карта подготовлена студентом Козловым Д.А.
+		</br> <!--Перенос строки-->
+		МИИГАиК, 2025
+	  </div>
+	  
+	  <!--Убираем флаг в атрибутах-->
+	  	<script src="script.js"></script>
+   </body>
+</html>
